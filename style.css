@@ -1,0 +1,17 @@
+form#signup {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 4px;
+    max-width: 20em;
+    border:2px solid blue;
+    padding: 2em;
+    margin: 2em;
+}
+
+form#signup fieldset {
+
+    grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 4px;
+}
